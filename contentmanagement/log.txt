@@ -1,0 +1,2 @@
+30-10-2021 14:27:06 176.251.37.54 1134 SUCCESS login attempt from admin (864 x1536) 13.2
+30-10-2021 14:27:21 176.251.37.54 1134 SUCCESS login attempt from user (864 x1536) 9.7
