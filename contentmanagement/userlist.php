@@ -116,8 +116,13 @@ if ($_SESSION["status"] == 'loggedOut')
 
 <div class="list">
 <a href="index.php">Home</a>
-<a href="addUser.php">Add User</a>
 </div>
+<?php
+if ($_SESSION["status"] == 'loggedInAdmin') {
+	echo '<a href="addUser.php">Add User</a>';
+}
+?>
+
 
 <footer class="footerOnePage">
 	<h2>&copy; 2021 Nathan Hannah <h2>
