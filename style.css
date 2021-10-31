@@ -1,0 +1,385 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* sets font*/
+body{
+	font-family: verdana;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+/*makes the header viewable at the top of the page*/
+header{
+	height: 11vh;
+	position: fixed;
+	background-color: #033076;
+	width:100%;
+	color: ghostwhite;
+	font-size: 20px;
+}
+
+header h2{
+	position: absolute;
+	margin-top: 20px;
+}
+
+
+/*sets the footer at the bottom of the content on the page*/
+footer{
+	font-size: 12px;
+	height: 8vh;
+	background-color: #7a7a7a;
+	color: white;
+	position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  margin-top: 20px;
+
+}
+
+footer h2{
+	position: absolute;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+/*sets line spacing for list items*/
+li {
+	margin: 15px;
+}
+
+header i {
+	text-decoration: 	underline;
+}
+
+
+.list button {
+  background-color: #033076;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 20%;
+}
+
+.list a:hover {
+	background-color: white;
+  border-radius: 10%;
+  color: #296d98;
+  margin-right: 20px;
+	padding:15px;
+	border-radius: 8px;
+}
+
+
+
+
+.list {
+  text-align: center;
+  
+}
+
+
+input[type=submit] {
+	text-align: center;
+	top: 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	padding:15px;
+	border-radius: 8px;
+	display: inline-block;
+	background-color: #033076;
+	border-color: white;
+}
+
+input[type=submit]:hover {
+	background-color: white;
+  border-radius: 10%;
+  color: #296d98;
+  margin-right: 20px;
+	padding:15px;
+	border-radius: 8px;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+
+}
+
+
+
+.dropbtn {
+  background-color: #033076;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: fixed;
+  position: relative;
+  display: inline-block;
+  float: right;
+  border:2px solid white;
+  top: 15px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #033076; color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #033076;}
+
+.navigation{
+	position: relative;
+	width: 100%;
+
+}
+.navigation a{
+	position: relative;
+	left: 60%;
+	top: 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	padding:10px 15px;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+
+.list a{
+	text-align: center;
+	top: 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	padding:15px;
+	border-radius: 8px;
+	display: inline-block;
+	background-color: #033076;
+}
+
+
+#welcomeText{
+	margin-top: 150px;
+	left: 5%;
+	colour: black;
+	text-align: left;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#welcomeText h2{
+	font-size: 40px;
+}
+
+.logincontainer {
+	margin-top: 150px;
+	text-align: center;
+
+}
+
+.logincontainer i {
+	text-decoration: underline;
+	font-size: 30px;
+	color: #033076;
+}
+
+.formContainer{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 25px;
+	left: 5%;
+	colour: black;
+	font-size: 18px;
+
+}
+
+
+#header h2 a{
+	color: white;
+	text-decoration: none;
+	display:inline-block;
+  width:100%;
+  height:100%
+}
+
+p{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+h2{
+	margin-left: 25px;
+}
+
+.logincontainer button {
+	margin-top: 10px;
+  font-size: 15px;
+  color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	padding:10px 15px;
+	border-radius: 8px
+}
+
+input[type=reset] {
+  width: 10em;  height: 2em;
+  color: red;
+  background-color: white;
+  font-size: 15px;
+}
+
+fieldset {
+	font-size: 20px;
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+
+input {
+  margin: 5px;
+}
+
+.list{
+	margin-top: 100px;
+	font-size: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	align-content: center;
+	flex: center;
+}
+
+.list img{
+  float: right;
+  margin-right: 500px;
+  margin-top: 10px;
+  width: 80px;
+  height: 60px;
+}
+
+ 
+
+
+.placeholder p{
+	padding-left: 20px;
+	text-align: center;
+	colour: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#location {
+	padding-left: 20px;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 150px;
+	colour: black;
+	font-size: 20px;
+}
+
+
+#aboutPage{
+	margin-top: 20px;
+	margin-top: 150px;
+}
+
+/*changes colour when mouse is hovered over*/
+.navigation a:hover {
+	background-color: white;
+  border-radius: 10%;
+  padding:10px 15px;
+  color: #296d98;
+}
+
+/*highlights current page*/
+.navigation .current {
+	background-color: white;
+	border-radius: 10%;
+  padding:10px 15px;
+  color: #296d98;
+}
+
+.aboutPage h2{
+	margin-top: 100px;
+	text-decoration: underline;
+	text-align: center;
+	color: #033076;
+}
+
+
+.logincontainer button {
+  background-color: #033076;
+  color: white;
+  padding: 14px 30px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+/* used for when the page does no require vertical scroll - footer stays at the bottom of viewpoint*/
+.footerOnePage{
+	position: fixed;
+}
+
+.userList{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	border: 1px;
+	padding: 5px;
+}
+
+.userList table{
+border: 1px solid black;
+}
+
+/*hide role-specific div html*/
+div.login, div.logout {
+display: none;
+}
