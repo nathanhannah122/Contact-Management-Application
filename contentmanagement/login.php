@@ -81,11 +81,12 @@ function get_browser_name($user_agent){
 $browser = get_browser_name($_SERVER['HTTP_USER_AGENT']);//Chrome
 
 $file2 = 'marketing.csv';
-
-$current = file_get_contents($file2);
-$newLine=  "\r\n" . $screenheight . "," . $screenwidth . "," . $timeTaken . "," . $browser;
-$current = $current . $newLine;
-file_put_contents($file2, $current);
+if ($attempt != 'OUT') {
+	$current = file_get_contents($file2);
+	$newLine=  "\r\n" . $screenheight . "," . $screenwidth . "," . $timeTaken . "," . $browser;
+	$current = $current . $newLine;
+	file_put_contents($file2, $current);
+}
 
 
  ?>
