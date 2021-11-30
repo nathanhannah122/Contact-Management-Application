@@ -10,6 +10,7 @@ Contact Management
 - JavaScript
 - HTML
 - CSS
+- SQL (V3)
 
 Data Report
 - Python
