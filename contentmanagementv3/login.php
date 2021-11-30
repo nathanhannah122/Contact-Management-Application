@@ -36,9 +36,9 @@ function loginMock($userid, $password) {
 //
 function loginDB($userid, $password) {
    $servername = "localhost";
-   $username = "115696";
-   $password = "saltaire";
-   $dbname = "115696";
+   $username = "user";
+   $password = "**********";
+   $dbname = "contacts";
 
    // Create connection
    $conn = new mysqli($servername, $username, $password, $dbname);
