@@ -25,9 +25,9 @@ if ($_SESSION["status"] == 'loggedInAdmin') {
 }
 
 $servername = "localhost";
-$username = "115696";
-$password = "saltaire";
-$dbname = "115696";
+$username = "user";
+$password = "********";
+$dbname = "contacts";
 // Start the session
 session_start();
 
