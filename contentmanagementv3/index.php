@@ -74,7 +74,7 @@
             echo '<br><a href="addUser.php">Add User</a>';
             echo '<a href="userlist.php">User List</a>';
             echo '<a href="log.txt">View Log</a>';
-            echo '<a href="https://hosting.shipley.ac.uk/shipley/115696/php/contactmanagement/marketing.csv">Download Marketing log</a>';
+            echo '<a href="/marketing.csv">Download Marketing log</a>';
             } else {
             echo '<a href="loginsys.php">Login Screen</a>';
             }
