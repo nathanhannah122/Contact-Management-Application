@@ -75,7 +75,7 @@ if ($_SESSION["status"] == 'loggedOut')
 
 ?>
 
-<!--
+<!-- FOR TESTING W/CSV
 <div class="userList">
 <center>
 <p style="float: left;"><img src="img/admin.png" alt="adminicon"height="200px" width="200px"></p>
